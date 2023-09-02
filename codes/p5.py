@@ -42,6 +42,9 @@ else:
     print("number is 0")'''
 
 
+# a = 1000
+# b = 1000
+# print("a is greater") if a > b else print("b is greater") if( b > a) else print("both equal")
 
 
 

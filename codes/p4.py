@@ -44,8 +44,8 @@ name = "Mahadev Loves+Me"
 
 
 # Strings Methods
-name = "!!yash!!yash! Mahadev"
-
+name = "                !!yash!!yash! Mahadev"
+print(name.strip())
 print(name.upper())#all upper
 print(name.lower())#all lower
 print(name.capitalize())#first letter upper
