@@ -35,3 +35,6 @@ print(c)
 import time
 
 print(dir(time))#give all the functions
+
+
+# print(int.__add__(3,1))

@@ -64,3 +64,46 @@
 
 
 
+# class Library:
+
+#     def __init__(self):
+#         self.noOfBooks = 6
+#         self.books = ["Python For Data Analysis","Automate The Boring Stuff With Python","Machine Learning with Python Cookbook","Python CookBook","Hands-On Machine Learning with Scikit-Learn and TensorFlow","Data Visualization in Python"]
+
+
+#     def showBooks(self):
+#         for i in self.books:
+#             print(i)
+
+#     def addBook(self,bookName):
+#         self.noOfBooks+=1
+#         self.books.append(bookName)
+
+#     def showNoOfBooks(self):
+#         print(len(self.books))
+
+# lib1 = Library()
+# lib1.showBooks()
+# lib1.showNoOfBooks()
+# lib1.addBook("Fluent Python: Clear, Concise, and Effective Programming, by Luciano Ramalho")
+# print("\n\n")
+# lib1.showBooks()
+# lib1.showNoOfBooks()
+
+
+
+
+
+
+
+
+# import os 
+
+# fileContents = os.listdir("Waste_Materials")
+
+# for index,file in enumerate(fileContents , start=0):
+#     if(".txt" in file):
+#         os.rename(f"Waste_Materials/{file}",f"Waste_Materials/style {index}.css")
+
+
+

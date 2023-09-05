@@ -15,6 +15,9 @@ class A:
 
     def feature2(self):
         print("Feature 2 working")
+    
+    def execute(self):
+        print("hey this is executing here")
 
 
 #super keyword represents the parent class
@@ -33,6 +36,10 @@ class B:
         print("Feature 4 working")
 
 
+    def polyTest(self,classTest):
+        classTest.execute()
+
+
 
 class C(B,A):
     def __init__(self):
@@ -45,7 +52,10 @@ class C(B,A):
 
 
         
-    
+obj1 = B()
+obj2 = A()
 
-obj1 = C()
+obj1.polyTest(obj2)
+
+# obj1 = C()
 # obj1.feature1()
